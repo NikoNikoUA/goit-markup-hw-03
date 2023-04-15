@@ -343,15 +343,20 @@ flex-wrap: wrap;
 /* =================== FOOTER ================== */
 .footer {
   background-color: #2e2f42;
-}
-
-.footer-container {
   padding: 100px 0px;
 }
 
+/* .footer-container {
+
+} */
+
 .description-footer {
-  margin-top: 8px;
   max-width: 264px;
+}
+
+.logo-link {
+  display: inline-block;
+  margin-bottom: 8px;
 }
 
 
