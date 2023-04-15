@@ -157,8 +157,12 @@ button {
 }
 
 .page-header {
-  padding: 24px 0px;
+  
   border-bottom: 1px solid #E7E9FC; 
+}
+
+.menu-item {
+  padding: 24px 0px;
 }
 
 .page-navigation {
