@@ -13,7 +13,7 @@
   --background-color: #ffffff;
 }
 
-/* ============= Inherited features ============ */
+/* ============= Inherited features ============= */
 
 body {
   font-family: var(--primary-font);
@@ -76,7 +76,7 @@ button {
 }
 
 .container {
-  width: 1128px;
+  width: 1158px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
@@ -295,16 +295,17 @@ button {
   margin-right: 24px;
 }
 
-/* ================ Our Employees ================ */
+/* ================= Our Employees ================== */
 
 .section-employee-list {
   display: flex;
-
+flex-wrap: wrap;
+/* gap: 24px; */
 }
 
 .section-employee-list-item:not(:nth-child(4n)) {
   margin-right: 24px;
-} 
+}  
  
 .section-employee-list-item {
   flex-basis: calc((100% - 72px) / 4);
@@ -342,7 +343,15 @@ border-radius: 0px 0px 4px 4px;
 }
 
 
-/* ************** PORTFOLIO PAGE ************** */
+/* *************** PORTFOLIO PAGE **************** */
+
+.portfolio-button-list {
+  display: flex;
+  padding-top: 96px;
+  padding-bottom: 72px;
+  justify-content: center;
+}
+
 
 .portfolio-button {
   font-family: var(--primary-font);
@@ -355,12 +364,24 @@ border-radius: 0px 0px 4px 4px;
   text-align: center;
   letter-spacing: 0.04em;
   color: #4d5ae5;
+
+  border: 1px solid #E7E9FC;
+  border-radius: 4px;
+  padding: 12px 24px;
+
+  }
+
+.portfolio-button-item:not(:last-child) {
+margin-right: 24px;
+
 }
 
 .portfolio-button:hover,
 .portfolio-button:focus {
   background-color: var(--accent-color);
   color: var(--background-color);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+border-radius: 4px;
 }
 
 .portfolio-heading-two {
@@ -369,4 +390,29 @@ border-radius: 0px 0px 4px 4px;
   line-height: 1.2;
   letter-spacing: 0.02em;
   color: var(--primary-color-heading);
+}
+
+.portfolio-services-list {
+  display: flex;
+  flex-wrap: wrap;
+  flex-basis: calc((100% - 48) / 3);
+  row-gap: 48px;
+  column-gap: 24px;
+}
+
+.portfolio-services-list-item {
+  flex-basis: calc((100% - 48px) / 3);
+}
+
+.container-portfolio {
+  padding-bottom: 120px;
+}
+
+.portfolio-card-content {
+  padding: 32px 0px 32px 16px;
+  border: 1px solid #E7E9FC;
+}
+
+.portfolio-heading-two {
+  margin-bottom: 8px;
 }
