@@ -343,12 +343,12 @@ flex-wrap: wrap;
 /* =================== FOOTER ================== */
 .footer {
   background-color: #2e2f42;
-  padding: 100px 0px;
+ 
 }
 
-/* .footer-container {
-
-} */
+.footer-container {
+ padding: 100px 0px;
+}
 
 .description-footer {
   max-width: 264px;
