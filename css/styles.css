@@ -161,7 +161,7 @@ button {
   border-bottom: 1px solid #E7E9FC; 
 }
 
-.menu-item {
+.page-header {
   padding: 24px 0px;
 }
 
@@ -423,7 +423,7 @@ border: 1px solid transparent;
 }
 
 .portfolio-card-content {
-  padding: 32px 0px 32px 16px;
+  padding: 32px 16px;
   border: 1px solid #E7E9FC;
   border-top: none;
 }
