@@ -154,12 +154,13 @@ button {
 .page-header-container {
   display: flex;
   align-items: center;
+  padding: 24px 0;
 }
 
 .page-header {
   
   border-bottom: 1px solid #E7E9FC; 
-  padding: 24px 0;
+  
 }
 
 .page-navigation {
@@ -170,6 +171,7 @@ button {
 .menu {
   display: flex;
   align-items: center;
+  
 }
 
 .logo-link-header {
