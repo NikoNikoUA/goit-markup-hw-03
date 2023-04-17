@@ -191,8 +191,7 @@ button {
 }
 
 .menu-link {
-  width: 66px;
-  height: 24px;
+   display: block;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -206,6 +205,7 @@ button {
 }
 
 .contact-info {
+  display: block;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
