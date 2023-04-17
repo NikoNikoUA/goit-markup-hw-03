@@ -156,7 +156,7 @@ button {
 }
 
 .page-header {
-  padding: 24px 0px;
+
   border-bottom: 1px solid #E7E9FC; 
   }
 
@@ -169,6 +169,10 @@ button {
   display: flex;
   align-items: center;
   
+}
+
+.menu-item {
+  padding: 24px 0px;
 }
 
 .logo-link-header {
