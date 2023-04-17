@@ -171,7 +171,9 @@ button {
   
 }
 
-.menu-item {
+.logo-link-header,
+.menu-link,
+.contact-info {
   padding: 24px 0px;
 }
 
